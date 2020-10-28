@@ -1,0 +1,21 @@
+ul.breadcrumb {
+    padding: 15px 16px;
+    list-style: none;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #ffffff;
+    content: "\2014";
+}
+
+ul.breadcrumb li a {
+    color: #ffffff;
+    text-decoration: none;
+}
