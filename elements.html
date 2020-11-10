@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Elements</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://www.shareicon.net/data/2015/09/18/642535_logo_512x512.png" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <!-- Sections -->
+    <link rel="stylesheet" href="css/sections/breadcrumb.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Alashi</h1>
+                </a>
+            </div> <!-- ./logo -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="dropdown"><a href="#">
+                            Pages
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="elements.html">Elements</a></li>
+                            <li><a href="portfolio-details.html">Portfolio Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="blog.html">
+                            Blog
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="single-blog.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div> <!-- ./container -->
+    </header> <!-- /header -->
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <!-- About Me Section -->
+    <section class="about-me">
+        <div class="container">
+            <div class="about-me-box">
+                <div class="about-me-content">
+                    <h2>Elements</h2>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Elements</li>
+                    </ul> <!-- ./breadcrumb-->
+                </div> <!-- ./about-me-content -->
+            </div> <!-- ./about-me-box -->
+        </div> <!-- ./container -->
+    </section> <!-- ./about-me pd-y -->
+
+    <!-- Text Sample -->
+    <section class="text-sample">
+        <div class="container">
+            <div class="text-sample-content">
+                <h3>Text Sample</h3>
+                <p>
+                    Every avid independent filmmaker has <b style="color:#4458dc;">Bold</b> about making that <em
+                        style="color: #4458dc;">Italic</em> interest documentary, or short film to show off their
+                    creative prowess. Many have great ideas and want to “wow” the<sup
+                        style="color: #4458dc;">Superscript</sup> scene, or video renters with their big project. But
+                    once you have the<sub style="color: #4458dc;">Subscript</sub> “in the can” (no easy feat), how do
+                    you move from a <del style="color: #4458dc;">Strike</del> through of master DVDs with the <u
+                        style="color: #4458dc;">“Underline”</u> marked hand-written title inside a secondhand CD case,
+                    to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap
+                    sitting on your doorstep? You need to create eye-popping artwork and have your project replicated.
+                    Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is
+                    certainly a helpful option to ensure a professional end result, but to help with your DVD
+                    replication project, here are 4 easy steps to follow for good DVD replication results:
+                </p>
+            </div> <!-- ./text-sample-content -->
+            <hr class="section-hr">
+        </div> <!-- ./container -->
+    </section> <!-- ./text-sample -->
+
+    <!-- Sample Buttons Section -->
+    <section class="sample-buttons">
+        <div class="container">
+            <div class="sample-buttons-content ">
+                <h3>Sample Buttons</h3>
+                <div class="sample-buttons-item">
+                    <a href="#" class="generic-btn default">Default</a>
+                    <a href="#" class="generic-btn primary">Primary</a>
+                    <a href="#" class="generic-btn success">Success</a>
+                    <a href="#" class="generic-btn info">Info</a>
+                    <a href="#" class="generic-btn warning">Warning</a>
+                    <a href="#" class="generic-btn danger">Danger</a>
+                    <a href="#" class="generic-btn link">Link</a>
+                    <a href="#" class="generic-btn disable">Disable</a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top55">
+                    <a href="#" class="generic-btn default-border">Default</a>
+                    <a href="#" class="generic-btn primary-border">Primary</a>
+                    <a href="#" class="generic-btn success-border">Success</a>
+                    <a href="#" class="generic-btn info-border">Info</a>
+                    <a href="#" class="generic-btn warning-border">Warning</a>
+                    <a href="#" class="generic-btn danger-border">Danger</a>
+                    <a href="#" class="generic-btn link-border">Link</a>
+                    <a href="#" class="generic-btn disable-border">Disable</a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top20">
+                    <a href="#" class="generic-btn default radius">Default</a>
+                    <a href="#" class="generic-btn primary radius">Primary</a>
+                    <a href="#" class="generic-btn success radius">Success</a>
+                    <a href="#" class="generic-btn info radius">Info</a>
+                    <a href="#" class="generic-btn warning radius">Warning</a>
+                    <a href="#" class="generic-btn danger radius">Danger</a>
+                    <a href="#" class="generic-btn link radius">Link</a>
+                    <a href="#" class="generic-btn disable radius   ">Disable</a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top55">
+                    <a href="#" class="generic-btn default-border radius">Default</a>
+                    <a href="#" class="generic-btn primary-border radius">Primary</a>
+                    <a href="#" class="generic-btn success-border radius">Success</a>
+                    <a href="#" class="generic-btn info-border radius">Info</a>
+                    <a href="#" class="generic-btn warning-border radius">Warning</a>
+                    <a href="#" class="generic-btn danger-border radius">Danger</a>
+                    <a href="#" class="generic-btn link-border radius">Link</a>
+                    <a href="#" class="generic-btn disable-border radius">Disable</a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top20">
+                    <a href="#" class="generic-btn default circle">Default</a>
+                    <a href="#" class="generic-btn primary circle">Primary</a>
+                    <a href="#" class="generic-btn success circle">Success</a>
+                    <a href="#" class="generic-btn info circle">Info</a>
+                    <a href="#" class="generic-btn warning circle">Warning</a>
+                    <a href="#" class="generic-btn danger circle">Danger</a>
+                    <a href="#" class="generic-btn link circle">Link</a>
+                    <a href="#" class="generic-btn disable circle">Disable</a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top55">
+                    <a href="#" class="generic-btn default-border circle">Default</a>
+                    <a href="#" class="generic-btn primary-border circle">Primary</a>
+                    <a href="#" class="generic-btn success-border circle">Success</a>
+                    <a href="#" class="generic-btn info-border circle">Info</a>
+                    <a href="#" class="generic-btn warning-border circle">Warning</a>
+                    <a href="#" class="generic-btn danger-border circle">Danger</a>
+                    <a href="#" class="generic-btn link-border circle">Link</a>
+                    <a href="#" class="generic-btn disable-border circle">Disable</a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top20">
+                    <a href="#" class="generic-btn default circle">Default &nbsp; &nbsp; <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn primary circle">Primary &nbsp; &nbsp; <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn success circle">Success &nbsp; &nbsp; <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn info circle">Info &nbsp; &nbsp; <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn warning circle">Warning &nbsp; &nbsp; <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn danger circle">Danger &nbsp; &nbsp; <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top55">
+                    <a href="#" class="generic-btn default-border circle">Default &nbsp; &nbsp; <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn primary-border circle">Primary &nbsp; &nbsp; <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn success-border circle">Success &nbsp; &nbsp; <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn info-border circle">Info &nbsp; &nbsp; <i class="fa fa-arrow-right"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn warning-border circle">Warning &nbsp; &nbsp; <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a href="#" class="generic-btn danger-border circle">Danger &nbsp; &nbsp; <i
+                            class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top20">
+                    <a href="#" class="generic-btn primary e-large">Extra Large</a>
+                    <a href="#" class="generic-btn success large">Large</a>
+                    <a href="#" class="generic-btn primary">Default</a>
+                    <a href="#" class="generic-btn success medium">Medium</a>
+                    <a href="#" class="generic-btn primary small">Small</a>
+                </div> <!-- ./sample-buttons-item -->
+                <div class="sample-buttons-item mg-top55">
+                    <a href="#" class="generic-btn primary-border e-large">Extra Large</a>
+                    <a href="#" class="generic-btn success-border large">Large</a>
+                    <a href="#" class="generic-btn primary-border">Default</a>
+                    <a href="#" class="generic-btn success-border medium">Medium</a>
+                    <a href="#" class="generic-btn primary-border small">Small</a>
+                </div> <!-- ./sample-buttons-item -->
+            </div> <!-- ./sample-buttons-content -->
+            <hr class="section-hr">
+        </div> <!-- ./container -->
+    </section> <!-- ./sample-buttons -->
+
+    <!-- Aligning Section -->
+    <section class="aligning">
+        <div class="container">
+            <div class="left-align">
+                <h3>Left Aligned</h3>
+                <div class="left-align-content">
+                    <div class="left-align-photo">
+                        <img src="images/elements/d.jpg" alt="a boy is running ! :D">
+                    </div> <!-- ./left-align-photo -->
+                    <div class="left-align-description">
+                        <p>Recently, the US Federal government banned online casinos from operating in America by making
+                            it illegal to transfer money to them through any US bank or payment system. As a result of
+                            this law, most of the popular online casino networks such as Party Gaming and PlayTech left
+                            the United States. Overnight, online casino players found themselves being chased by the
+                            Federal government. But, after a fortnight, the online casino industry came up with a
+                            solution and new online casinos started taking root. These began to operate under a
+                            different business umbrella, and by doing that, rendered the transfer of money to and from
+                            them legal. A major part of this was enlisting electronic banking systems that would accept
+                            this new clarification and start doing business with me. Listed in this article are the
+                            electronic banking systems that accept players from the United States that wish to play in
+                            online casinos.</p>
+                    </div> <!-- ./left-align-decription -->
+                </div> <!-- ./left-align-content -->
+            </div> <!-- ./left-align -->
+            <hr class="section-hr">
+            <div class="right-align">
+                <h3>Right Aligned</h3>
+                <div class="right-align-content ">
+                    <div class="right-align-photo">
+                        <img src="images/elements/d.jpg" alt="a boy is running ! :D">
+                    </div> <!-- ./right-align-photo -->
+                    <div class="right-align-description">
+                        <p>Over time, even the most sophisticated, memory packed computer can begin to run slow if we
+                            don’t do something to prevent it. The reason why has less to do with how computers are made
+                            and how they age and more to do with the way we use them. You see, all of the daily tasks
+                            that we do on our PC from running programs to downloading and deleting software can make our
+                            computer sluggish. To keep this from happening, you need to understand the reasons why your
+                            PC is getting slower and do something to keep your PC running at its best. You can do this
+                            through regular maintenance and PC performance optimization programs
+                            <br> <br> Before we discuss all of the things that could be affecting your PC’s performance,
+                            let’s talk a little about what symptoms
+                        </p>
+                    </div> <!-- ./right-align-description -->
+                </div> <!-- ./right-align-content -->
+            </div> <!-- ./left-align-->
+            <hr class="section-hr">
+        </div> <!-- ./container-->
+    </section> <!-- ./aligning -->
+
+    <!-- Definition Section -->
+    <section class="definition">
+        <div class="container">
+            <div class="definition-content">
+                <h3>Definition</h3>
+                <div class="definition-item">
+                    <h4>Definition 01</h4>
+                    <p>Recently, the US Federal government banned online casinos from operating in America by making it
+                        illegal to transfer money to them through any US bank or payment system. As a result of this
+                        law, most of the popular online casino networks</p>
+                </div> <!-- ./definition-item -->
+                <div class="definition-item" style="margin: 0px 2%;">
+                    <h4>Definition 02</h4>
+                    <p>Recently, the US Federal government banned online casinos from operating in America by making it
+                        illegal to transfer money to them through any US bank or payment system. As a result of this
+                        law, most of the popular online casino networks</p>
+                </div> <!-- ./definition-item -->
+                <div class="definition-item">
+                    <h4>Definition 03</h4>
+                    <p>Recently, the US Federal government banned online casinos from operating in America by making it
+                        illegal to transfer money to them through any US bank or payment system. As a result of this
+                        law, most of the popular online casino networks</p>
+                </div> <!-- ./definition-item -->
+            </div> <!-- ./definition-content -->
+        </div> <!-- ./container -->
+    </section> <!-- ./definition-->
+
+    <!-- Quote Section -->
+    <section class="quote">
+        <div class="container">
+            <hr class="section-hr">
+            <div class="quote-content">
+                <h3>Block Quotes</h3>
+                <blockquote>
+                    “Recently, the US Federal government banned online casinos from operating in America by making it
+                    illegal to transfer money to them through any US bank or payment system. As a result of this law,
+                    most of the popular online casino networks such as Party Gaming and PlayTech left the United States.
+                    Overnight, online casino players found themselves being chased by the Federal government. But, after
+                    a fortnight, the online casino industry came up with a solution and new online casinos started
+                    taking root. These began to operate under a different business umbrella, and by doing that, rendered
+                    the transfer of money to and from them legal. A major part of this was enlisting electronic banking
+                    systems that would accept this new clarification and start doing business with me. Listed in this
+                    article are the electronic banking”
+                </blockquote>
+            </div> <!-- ./quote-content -->
+            <hr class="section-hr">
+        </div> <!-- ./container -->
+    </section> <!-- ./quote-->
+
+    <!-- Table Section -->
+    <section class="table">
+        <div class="container">
+            <div class="table-content">
+                <h3>Table</h3>
+                <div class="progress-table">
+                    <div class="table-head">
+                        <div class="serial">#</div>
+                        <div class="country">Countries</div>
+                        <div class="visit">Visits</div>
+                        <div class="percentage">Percentages</div>
+                    </div> <!-- ./table-head -->
+                    <div class="table-row">
+                        <div class="serial">01</div>
+                        <div class="country">
+                            <img src="images/elements/f1.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="width: 75%; background: #007bff;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                    <div class="table-row">
+                        <div class="serial">02</div>
+                        <div class="country">
+                            <img src="images/elements/f2.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="background-color: #e66686; width: 30%;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                    <div class="table-row">
+                        <div class="serial">03</div>
+                        <div class="country">
+                            <img src="images/elements/f3.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="background-color: #f09359; width: 50%;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                    <div class="table-row">
+                        <div class="serial">04</div>
+                        <div class="country">
+                            <img src="images/elements/f4.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="background-color: #73fbaf; width: 68%;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                    <div class="table-row">
+                        <div class="serial">05</div>
+                        <div class="country">
+                            <img src="images/elements/f5.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="background-color: #73fbaf; width: 38%;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                    <div class="table-row">
+                        <div class="serial">06</div>
+                        <div class="country">
+                            <img src="images/elements/f6.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="background-color: #6382e6; width: 70%;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                    <div class="table-row">
+                        <div class="serial">07</div>
+                        <div class="country">
+                            <img src="images/elements/f7.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="background-color: #a367e7; width: 30%;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                    <div class="table-row">
+                        <div class="serial">08</div>
+                        <div class="country">
+                            <img src="images/elements/f8.jpg" alt="Canada !">&nbsp; Canada
+                        </div>
+                        <div class="visit">645032</div>
+                        <div class="percentage">
+                            <div class="progress-bar" style="background-color: #e66686; width: 60%;"></div>
+                        </div>
+                    </div> <!-- ./table-row -->
+                </div> <!-- ./progress-table -->
+            </div> <!-- ./table-content -->
+            <hr class="section-hr">
+        </div> <!-- ./container -->
+    </section> <!-- ./table -->
+
+    <!-- Image Gallery Section -->
+    <section class="image-gallery">
+        <div class="container">
+            <h3>Image Gallery</h3>
+            <div class="image-gallery-content">
+                <div class="image-gallery-item">
+                    <a href="images/elements/g1.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g1.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+                <div class="image-gallery-item" style="margin: 0 2%;">
+                    <a href="images/elements/g2.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g2.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+                <div class="image-gallery-item">
+                    <a href="images/elements/g3.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g3.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+            </div> <!-- ./image-gallery-content -->
+            <div class="image-gallery-content">
+                <div class="image-gallery-item" style="width: 48%; margin-right: 2%;">
+                    <a href="images/elements/g4.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g4.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+                <div class="image-gallery-item" style="width:50%;">
+                    <a href="images/elements/g5.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g5.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+            </div> <!-- ./image-gallery-content -->
+            <div class="image-gallery-content">
+                <div class="image-gallery-item">
+                    <a href="images/elements/g6.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g6.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+                <div class="image-gallery-item" style="margin: 0 2%;">
+                    <a href="images/elements/g7.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g7.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+                <div class="image-gallery-item">
+                    <a href="images/elements/g8.jpg">
+                        <div class="single-gallery-image" style="background-image: url(images/elements/g8.jpg);">
+                        </div> <!-- ./single-gallery-image -->
+                    </a>
+                </div> <!-- ./image-gallery-item -->
+            </div> <!-- ./image-gallery-content -->
+            <hr class="section-hr">
+        </div> <!-- ./container -->
+    </section> <!-- ./image-gallery -->
+
+    <!-- Typography .. Section -->
+    <section class="ty-ul-ol">
+        <div class="container">
+            <div class="ty-ul-ol-content">
+                <div class="typography">
+                    <h3>Typography</h3>
+                    <div class="headings">
+                        <h1>This is header 01</h1>
+                        <h2>This is header 02</h2>
+                        <h3>This is header 03</h3>
+                        <h4>This is header 04</h4>
+                        <h5>This is header 05</h5>
+                        <h6>This is header 06</h6>
+                    </div> <!-- ./headings -->
+                </div> <!-- ./typography -->
+                <div class="unordered-list">
+                    <h3>Unordered List</h3>
+                    <ul>
+                        <li>Fta Keys</li>
+                        <li>For Women Only Your Computer Usage</li>
+                        <li>Facts Why Inkjet Printing Is Very Appealing
+                            <ul style="list-style-type: circle;">
+                                <li>Addiction When Gambling Becomes
+                                    <ul style="list-style-type:square;">
+                                        <li>Protective Preventative Maintenance</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Dealing With Technical Support 10 Useful Tips</li>
+                        <li>Make Myspace Your Best Designed Space</li>
+                        <li>Cleaning And Organizing Your Computer</li>
+                    </ul>
+                </div> <!-- ./unordered-list -->
+                <div class="ordered-list">
+                    <h3>Ordered List</h3>
+                    <ol style="list-style: none;">
+                        <li><span>Fta Keys</span></li>
+                        <li><span>For Women Only Your Computer Usage</span></li>
+                        <li><span>Facts Why Inkjet Printing Is Very Appealing</span>
+                            <ol type="a">
+                                <li><span>Addiction When Gambling Becomes</span>
+                                    <ol type="i">
+                                        <li><span>Protective Preventative Maintenance</span></li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                        <li><span>Dealing With Technical Support 10 Useful Tips</span></li>
+                        <li><span>Make Myspace Your Best Designed Space</span></li>
+                        <li><span>Cleaning And Organizing Your Computer</span></li>
+                    </ol>
+                </div> <!-- ./ordered-list -->
+            </div> <!-- ./ty-ul-ol-content -->
+        </div> <!-- ./container -->
+    </section> <!-- ./ty-ul-ol -->
+
+    <!-- mainAside Section -->
+    <section class="mainAside">
+        <div class="container">
+            <hr class="section-hr">
+            <main class="main">
+                <h3>Form Element</h3>
+                <form action="" method="post">
+                    <input type="text" name="fname" id="fname" placeholder="First Name" required>
+                    <input type="text" name="mname" id="mname" placeholder="Middle Name">
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email address" required>
+                    <div class="inputs-icon">
+                        <div class="address">
+                            <i class="fa fa-thumb-tack"></i>
+                            <input type="text" name="address" id="address" placeholder="Address">
+                        </div> <!-- ./address -->
+                        <div class="city">
+                            <i class="fa fa-plane"></i>
+                            <select name="" id="">
+                                <option value="1" selected>City</option>
+                                <option value="2">Dhaka</option>
+                                <option value="3">Dilli</option>
+                                <option value="4">New York</option>
+                                <option value="5">Islamabad </option>
+                            </select>
+                        </div> <!-- ./city -->
+                        <div class="country">
+                            <i class="fa fa-globe"></i>
+                            <select name="" id="">
+                                <option value="country" selected>Country</option>
+                                <option value="palestine">Palestine</option>
+                                <option value="usa">United States of America</option>
+                                <option value="england">England</option>
+                                <option value="india">India</option>
+                            </select>
+                        </div> <!-- ./country -->
+                    </div> <!-- ./inputs-icon -->
+                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+                    <input type="text" name="primary" id="primary-color" placeholder="Primary Color">
+                    <input type="text" name="accent" id="accent-color" placeholder="Accent Color">
+                    <input type="text" name="secondary" id="secondary-color" placeholder="Secondary Color">
+                </form>
+            </main> <!-- ./main -->
+            <aside class="aside">
+                <div class="container">
+                    <div class="switches">
+                        <h3>Switches</h3>
+                        <ol>
+                            <li><span>Sample Switch</span>
+                                <div class="default-switch">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider"></span>
+                                    </label> <!-- ./switch -->
+                                </div> <!-- ./default-switch -->
+                            </li>
+                            <li><span>Primary Color Switchs</span>
+                                <div class="primary-switch">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider primary-color"></span>
+                                    </label> <!-- ./switch -->
+                                </div> <!-- ./primary-switch -->
+                            </li>
+                            <li><span>Confirm Color Switch</span>
+                                <div class="confirm-switch">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider confirm-color"></span>
+                                    </label> <!-- ./switch -->
+                                </div> <!-- ./confirm-switch -->
+                            </li>
+                        </ol>
+                    </div> <!-- ./switches -->
+                    <div class="select-boxes">
+                        <h3>Selectboxes</h3>
+                        <select name="" id="">
+                            <option value="english" Selected>English</option>
+                            <option value="spanish">Spanish</option>
+                            <option value="arabic">Arabic</option>
+                            <option value="portuguise">Portuguise</option>
+                            <option value="bengali">Bengali</option>
+                        </select>
+                    </div> <!-- ./select-boxes -->
+                </div> <!-- ./container -->
+            </aside> <!-- ./aside -->
+        </div> <!-- ./container -->
+    </section> <!-- ./mainAside-->
+</body>
+
+</html>
